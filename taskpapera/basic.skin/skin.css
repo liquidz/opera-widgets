@@ -1,0 +1,142 @@
+body, html {
+    border: 0px;
+	padding: 0px;
+	margin: 0px;
+    overflow: hidden;
+}
+
+#lblTitle {
+	position: absolute;
+	top: 0px;
+	left: 12px;
+    line-height: 29px !important;
+	font-weight: bold;
+	color: gray;
+    font: caption;
+}
+
+#__widget_chrome_root__ {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 200px;
+}
+
+#__widget_chrome_root__ > div {
+	position: absolute;
+}
+
+#chrome_top_left {
+	background: url("top_left.png");
+	width: 23px;
+	height: 29px;	
+	top: 0px;
+	left: 0px;
+}
+
+#chrome_top_right {
+	background: url("top_right.png");
+	width: 22px;
+	height: 29px;	
+	top: 0px;
+	right: 0px;
+}
+
+#chrome_top_middle {
+	background: url("top_center.png");    
+	width: 310px;
+	height: 29px;	
+	top: 0px;
+	left: 6px;
+}
+
+#chrome_middle_left {
+	background: url("shadow_left.png");
+	width: 9px;
+	height: 141px;	
+	top: 29px;
+	left: 0px;
+}
+
+#chrome_middle_content {
+    background: url("middle_content.png");
+	width: 301px;
+	height: 141px;	
+	top: 36px;
+	left: 10px;
+    overflow: auto;
+}
+
+#chrome_middle_right {
+	background: url("shadow_right.png"); 
+	width: 8px;
+	height: 141px;	
+	top: 29px;
+	right: 0px;	
+}
+
+#chrome_bottom_left {
+	background: url("bottom_left.png"); 
+	width: 23px;
+	height: 31px;	
+	bottom: 0px;
+	left: 0px;
+}
+
+#chrome_bottom_middle {
+	background: url("bottom_center.png"); 
+	width: 289px;
+	height: 31px;	
+	bottom: 0px;
+	left: 16px;
+}
+
+#chrome_bottom_right {
+	background: url("bottom_right.png"); 
+	width: 22px;
+	height: 31px;	
+	bottom: 0px;
+	right: 0px;
+	
+    -apple-dashboard-region: dashboard-region(control rectangle);
+	cursor: se-resize;
+}
+
+#btnClose {
+	top: 5px;
+	right: 10px;
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	background: url("button_close.png");
+	border: 0px;
+}
+
+#btnClose:hover { background-position: 0 50%;  }
+#btnClose:active { background-position: 0 100%; }
+
+#btnConfig {
+	top: 5px;
+	right: 32px;
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	background: url("button_config.png");
+	border: 0px;
+}
+
+#btnConfig:hover { background-position: 0 50%;  }
+#btnConfig:active { background-position: 0 100%; }
+
+#btnMinimise {
+	top: 5px;
+	right: 54px;
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	background: url("button_minimize.png");
+	border: 0px;
+}
+#btnMinimise:hover { background-position: 0 50%;  }
+#btnMinimise:active { background-position: 0 100%; }

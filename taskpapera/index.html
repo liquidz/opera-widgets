@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaskPapera</title>
+	<script type="text/javascript" src="js/chrome.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/settings.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="basic.skin/skin.css" media="screen" />
+</head>
+<body>
+
+<div id="container">
+	<!-- =widget_chrome_items -->
+	<div id="widget_chrome_items">
+		<!-- --------TOP-------- -->
+		<select id="project_switcher" class="chrome_item chrome_top" name="project_switcher" data-not-chrome-content="true"></select>
+		<input type="text" id="search" class="chrome_item chrome_top" data-not-chrome-content="true" />
+		<!-- --------BOTTOM-------- -->
+		<p id="toggle_window_p" class="chrome_item chrome_bottom" data-not-chrome-content="true"><a id="toggle_window" href="javascript:controller.toggle_window();">Å£</a></p>
+		<p id="normal_mode_buttons" class="chrome_item chrome_bottom" data-not-chrome-content="true">
+			<a id="edit" href="javascript:controller.edit();">edit</a>
+		</p>
+		<p id="edit_mode_buttons" class="chrome_item chrome_bottom" data-not-chrome-content="true">
+			<a id="save" href="javascript:controller.save();">save</a>
+			<a id="cancel" href="javascript:controller.cancel();">cancel</a>
+		</p>
+	</div>
+
+	<!-- =normal_mode -->
+	<div id="normal_mode">
+		<div id="list">
+		</div>
+	</div>
+
+	<!-- =edit_mode -->
+	<div id="edit_mode">
+		<textarea id="text"></textarea>
+	</div>
+
+	<!-- =about_dialog -->
+	<div id="about_dialog" class="window">
+		<h2>about TaskPapera</h2>
+		<ul>
+		<li>version</li>
+			<p id="version"></p>
+		<li>author</li>
+			<p>Masashi Iizuka</p>
+		</ul>
+
+		<h2>settings</h2>
+		<ul>
+		<li>tag color</li>
+			<textarea id="color_setting"></textarea>
+		</ul>
+		<p><a href="javascript:controller.close_window('about_dialog');">close</a></p>
+	</div>
+</div>
+ 
+</body>
+</html>

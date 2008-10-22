@@ -1,0 +1,29 @@
+/* =padding: 0; margin: 0;
+ * -------------------------------------------------- */
+body, h1, h2, h3, div, p, ul {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* =font-size: small;
+ * -------------------------------------------------- */
+#container h2,
+#container div#normal_mode h3,
+#container div#normal_mode p.item_wrap, 
+#container div#list p#back a,
+a#toggle_window,
+p#normal_mode_buttons,
+p#edit_mode_buttons
+{
+	font-size: small;
+}
+
+
+/* =display: none;
+ * -------------------------------------------------- */
+#container div#edit_mode,
+p#edit_mode_buttons,
+.window {
+	display: none;
+}

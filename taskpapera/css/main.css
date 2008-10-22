@@ -1,0 +1,128 @@
+/* TOC
+ *
+ * 1. container
+ * 2. widget chrome
+ * 3. windows
+ * 4. basic tags
+ * 5. trash can
+ */
+
+
+/* =container
+ * -------------------------------------------------- */
+#container { padding: 5px; }
+
+#container h2 {
+	color: #39d;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+#container div#normal_mode p.item_wrap {
+	margin-left: 0.5em;
+}
+
+#container div#normal_mode label.done {
+	color: #777;
+	text-decoration: line-through;
+}
+#container div#normal_mode h3 {
+	color: #aaa;
+}
+
+#container div#edit_mode textarea#text {
+	width: 95%;
+	height: 95%;
+}
+
+#container div#list p#back {
+	margin: 10px 0 0 10px;
+}
+#container div#list p#back a {
+	font-weight: bold;
+}
+
+
+/* =widget chrome
+ * -------------------------------------------------- */
+.chrome_item { position: absolute; }
+.chrome_top { top: 4px; }
+.chrome_bottom { bottom: 15px; }
+
+select#project_switcher {
+	right: 165px;
+	width: 100px;
+}
+
+input#search {
+	background: #fff url(../img/search.png) no-repeat 2px 1px;
+	padding-left: 22px;
+	right: 80px;
+	height: 16px;
+	width: 80px;
+	border: 1px solid #ccc;
+}
+input#search:hover {
+	border: 1px solid #cdc;
+}
+
+p#toggle_window_p {
+	left: 10px;
+	width: 100%;
+	text-align: center;
+}
+a#toggle_window {
+	text-decoration: none;
+	color: #aaa;
+}
+a#toggle_window:hover {
+	color: #abc;
+}
+
+a#edit, a#save, a#cancel {
+	padding-left: 15px;
+}
+a#edit { background: transparent url(../img/edit.png) no-repeat left 50%; }
+a#save { background: transparent url(../img/ok.png) no-repeat left 50%; }
+a#cancel { background: transparent url(../img/cancel.png) no-repeat left 50%; }
+
+p#normal_mode_buttons, p#edit_mode_buttons {
+	left: 20px;
+}
+p#normal_mode_buttons a, p#edit_mode_buttons a {
+	color: #CF2525;
+}
+p#normal_mode_buttons a:hover, p#edit_mode_buttons a:hover {
+	color: #07B328;
+}
+
+
+/* =windows
+ * -------------------------------------------------- */
+.window {
+	background: #fff;
+	padding: 5px;
+}
+
+#about_dialog p {
+	line-height: 150%;
+}
+
+#about_dialog textarea#color_setting {
+	width: 90%;
+	height: 100px;
+}
+
+
+/* =basic tags
+ * -------------------------------------------------- */
+a { color: #00CA26; }
+a:hover { color: #FF9B30; }
+
+ul li { margin-left: 1em; }
+ul li + p { margin-left: 1.3em; }
+
+
+/* =trash can 
+ * -------------------------------------------------- */
+

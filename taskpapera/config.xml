@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+  <widgetname>TaskPapera</widgetname>
+  <description>TaskPaper clone</description>
+  <icon>icon.png</icon>
+  <width>300</width>
+  <height>500</height>
+ <author>
+    <name>Masashi Iizuka</name>
+    <link>http://www.opera.com/</link>
+    <organization></organization>
+  </author>
+  <id>
+    <host>http://widgets.opera.com</host>
+    <name>TaskPapera</name>
+    <revised>2008-10-09</revised>
+  </id>
+</widget>
